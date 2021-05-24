@@ -7,6 +7,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  float: left;
 }
 
 .pc{
@@ -37,5 +38,25 @@
   margin-left: 5px;
   width: 85px;
   height: 45px;
+  float: left;
+}
+
+.tool_box {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-left: 20px;
+  width: 200px;
+  height: 60px;
+  float: left;
+}
+
+.conn{
+  background-color: rgb(255, 126, 126);
+  color: white;
+  padding: 20px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
   float: left;
 }
