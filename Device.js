@@ -20,7 +20,7 @@ class Device {
         this.pptp_instance.pptp_state = 1;
     }
     end_connection() {
-        replay = "";
+        var replay = "";
         replay = this.conn.pptp_instance.stop_control_connection(this.ip_address);
         console.log(replay);
         replay = this.conn.pptp_instance.call_clear(this.ip_address);
