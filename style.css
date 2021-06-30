@@ -7,6 +7,14 @@
   padding: 10px;
 }
 
+.contributors{
+  position: fixed;
+  color: gold;
+  margin-bottom: 1px;
+  margin-left : 1px;
+  bottom: 0;
+}
+
 .pc{
   background-image: url("icons/pc.png");
   color: white;
