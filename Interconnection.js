@@ -7,5 +7,17 @@ class Interconnection {
         device2.connect_device(device1);
         this.id = 'i-' + Interconnection.count;
         Interconnection.count++;
+        $(document).ready(function() {
+            $('#'+(device1.id).toString()).connections({to: '#'+(device2.id).toString(), 'class': 'demo', borderClasses: {
+                top: 'connection-border-top',
+                right: 'connection-border-right',
+                bottom: 'connection-border-bottom',
+                left: 'connection-border-left'
+            }});
+         });
+        
+
     }
+
+
 }

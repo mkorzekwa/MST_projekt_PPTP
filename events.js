@@ -90,7 +90,7 @@ document.getElementById("pc").onclick = function () {
     div.style.left = "150px";
     div.style.top = "150px";
     div.id = p.id;
-    div.className = "pc";
+    div.className = "pc draggable ui-widget-content";
 
     document.getElementsByTagName('body')[0].appendChild(div);
     dragable(p.id, p.id);
@@ -104,7 +104,7 @@ document.getElementById("router").onclick = function () {
     div.style.left = "350px";
     div.style.top = "350px";
     div.id = r.id;
-    div.className = "router";
+    div.className = "router draggable ui-widget-content";
 
     document.getElementsByTagName('body')[0].appendChild(div);
     dragable(r.id, r.id);
@@ -118,7 +118,7 @@ document.getElementById("sniffer").onclick = function () {
     div.style.left = "550px";
     div.style.top = "550px";
     div.id = s.id;
-    div.className = "sniffer";
+    div.className = "sniffer draggable ui-widget-content";
 
     document.getElementsByTagName('body')[0].appendChild(div);
     dragable(s.id, s.id);
