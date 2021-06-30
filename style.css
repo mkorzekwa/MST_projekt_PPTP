@@ -1,3 +1,7 @@
+body{
+  background-image: url("icons/background.jpg");
+}
+
 .devices_box {
   background-color: rgba(56, 64, 83, 0.452);
   color: white;
